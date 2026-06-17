@@ -14,6 +14,20 @@ When people learn Python they often build to-do apps and games. But on a DevOps 
 
 Everything uses only the **Python standard library** — no `pip install` needed to run the exercises. You practise on real-looking data: a web-server log, a list of employees, and a JSON file of servers with CPU/memory stats.
 
+## 🗺️ Visual overview
+
+A picture before the practice. Full set (light + dark, ready for slides/LinkedIn) is in the [diagram gallery](docs/README.md).
+
+**Anatomy of a DevOps script** — read input → parse/validate → transform → output. Most automation follows this shape.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/01-script-anatomy-dark.png"><img alt="Anatomy of a DevOps script" src="docs/01-script-anatomy.png"></picture>
+
+**Parsing logs** and **running commands with `subprocess`** — two everyday DevOps tasks.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/02-log-parsing-dark.png"><img alt="Log parsing pipeline" src="docs/02-log-parsing.png"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/03-subprocess-dark.png"><img alt="subprocess flow" src="docs/03-subprocess.png"></picture>
+
 ## 🗂️ What's inside
 
 ```

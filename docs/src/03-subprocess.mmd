@@ -1,0 +1,11 @@
+flowchart LR
+    py[Python script] --> run[subprocess.run]
+    run --> cmd[[external command]]
+    cmd --> out[capture stdout/stderr<br/>+ return code]
+    out --> chk{return code == 0?}
+    chk -->|yes| ok[use output]
+    chk -->|no| err[handle error]
+
+    class py,run,out,ok,err app
+    class cmd ext
+    class chk edge

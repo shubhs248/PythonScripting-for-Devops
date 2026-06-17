@@ -1,0 +1,9 @@
+flowchart LR
+    f[(log file)] --> it[iterate lines]
+    it --> match[regex / split]
+    match --> count[(Counter tally)]
+    count --> report[summary report]
+
+    class f data
+    class it,match,report app
+    class count data

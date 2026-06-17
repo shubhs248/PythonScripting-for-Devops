@@ -1,0 +1,9 @@
+flowchart LR
+    in([Input:<br/>args / files / API]) --> read[Read data]
+    read --> parse[Parse + validate]
+    parse --> transform[Transform / compute]
+    transform --> out[Output:<br/>report / file / exit code]
+
+    class in client
+    class read,parse,transform app
+    class out ext
