@@ -1,0 +1,10 @@
+# -------------------------------------------------------------------
+# The EXERCISES use only the Python standard library.
+# You do NOT need to install anything to run them.
+#
+# The packages below are OPTIONAL and only useful if you want to
+# develop/contribute (run tests and the linter). Install with:
+#     pip install -r requirements.txt
+# -------------------------------------------------------------------
+pytest>=8.0
+ruff>=0.5

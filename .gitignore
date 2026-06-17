@@ -1,0 +1,26 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Stuff produced while practising
+output/
+*.tmp
+*.bak
+
+# The throwaway log playground that generate_data.py creates
+data/logs/
