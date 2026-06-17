@@ -1,0 +1,19 @@
+{
+  "environment": "staging",
+  "thresholds": {
+    "cpu_percent": 80,
+    "mem_percent": 85
+  },
+  "servers": [
+    { "name": "web-01",     "role": "web",   "status": "up",   "cpu": 35, "mem": 60, "port": 80 },
+    { "name": "web-02",     "role": "web",   "status": "up",   "cpu": 82, "mem": 70, "port": 80 },
+    { "name": "web-03",     "role": "web",   "status": "down", "cpu": 0,  "mem": 0,  "port": 80 },
+    { "name": "db-01",      "role": "db",    "status": "up",   "cpu": 55, "mem": 88, "port": 5432 },
+    { "name": "db-02",      "role": "db",    "status": "down", "cpu": 0,  "mem": 0,  "port": 5432 },
+    { "name": "cache-01",   "role": "cache", "status": "up",   "cpu": 20, "mem": 45, "port": 6379 },
+    { "name": "queue-01",   "role": "queue", "status": "up",   "cpu": 40, "mem": 50, "port": 5672 },
+    { "name": "api-01",     "role": "api",   "status": "down", "cpu": 0,  "mem": 0,  "port": 8080 },
+    { "name": "api-02",     "role": "api",   "status": "up",   "cpu": 90, "mem": 75, "port": 8080 },
+    { "name": "monitor-01", "role": "ops",   "status": "up",   "cpu": 15, "mem": 30, "port": 9090 }
+  ]
+}

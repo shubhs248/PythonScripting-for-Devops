@@ -1,0 +1,11 @@
+{
+  "environment": "staging",
+  "total": 10,
+  "up": 7,
+  "down": 3,
+  "over_threshold": [
+    "web-02",
+    "db-01",
+    "api-02"
+  ]
+}
