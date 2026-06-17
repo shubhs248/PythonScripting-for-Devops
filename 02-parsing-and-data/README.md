@@ -1,5 +1,9 @@
 # Part 2 — Parsing & Data (The Bread and Butter)
 
+*A typical log-parsing pipeline:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/02-log-parsing-dark.png"><img alt="Log parsing pipeline" src="../docs/02-log-parsing.png"></picture>
+
 ## 🎯 Goal
 Most DevOps Python is about taking messy text or structured files and turning them into useful answers. Here you parse a **log file**, a **CSV**, and a **JSON** config — the three formats you meet most often.
 

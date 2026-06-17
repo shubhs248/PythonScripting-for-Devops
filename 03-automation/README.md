@@ -1,5 +1,9 @@
 # Part 3 — Automation (Real DevOps Scripts)
 
+*Running an external command with `subprocess`:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/03-subprocess-dark.png"><img alt="subprocess flow" src="../docs/03-subprocess.png"></picture>
+
 ## 🎯 Goal
 Put it all together and write the kind of small scripts you actually ship: clean up old files, run system commands and read their output, and run a health check that exits with the right code for a pipeline.
 

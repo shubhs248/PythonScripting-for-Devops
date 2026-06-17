@@ -1,5 +1,9 @@
 # Part 1 — Python Essentials for DevOps (Warm-up)
 
+*The anatomy of a typical DevOps script:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/01-script-anatomy-dark.png"><img alt="Anatomy of a DevOps script" src="../docs/01-script-anatomy.png"></picture>
+
 ## 🎯 Goal
 Refresh the basic Python you will use again and again in DevOps scripts, before you move on to the real tasks in parts 2 and 3.
 
